@@ -1,0 +1,50 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+
+# Editor directories
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Build output
+build/
+
+# OS files
+Thumbs.db
+
+# Sensitive / credential files (do NOT commit these)
+# Firebase admin service account (example) - remove from repo and keep locally
+iotrix-final-firebase-adminsdk-fbsvc-6e07edd126.json
+# Firebase web config often contains secrets
+firebaseConfig.js
+# Any exported student or test datasets
+student_data.json
+
+# Local dev artifacts
+.cache/
+.tmp/
+
+# Lockfiles (keep pnpm lock in repo; don't ignore it)
+# pnpm-lock.yaml should be kept for reproducible installs
+
+dashboard-update.md
+db_schema.json
+inital-firebase-integration-check.mc
+manager-dashboard.md
+manager-login-ui.md
+tasks.md
+triggerring-and-seeding.md

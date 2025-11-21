@@ -1,0 +1,26 @@
+/* Dark theme styles for enrollment and calendar widget */
+
+.enrollment-page { padding: 20px; }
+
+.purchase-form { background: transparent; }
+
+/* Table container adjustments */
+.enrollment-table-container { background: rgba(15, 23, 42, 0.2); }
+
+/* Calendar modal */
+.react-calendar { background: transparent; border: none; color: #cbd5e1; }
+.react-calendar * { box-sizing: border-box; }
+.react-calendar__navigation { display:flex; gap:8px; justify-content:space-between; align-items:center; margin-bottom:8px; }
+.react-calendar__navigation button { background: transparent; border: none; color: #cbd5e1; padding: 6px 8px; border-radius: 6px; }
+.react-calendar__month-view__weekdays { color: #94a3b8; font-size: 0.8rem; }
+.react-calendar__tile { background: transparent; color: #cbd5e1; border-radius: 6px; padding: 6px; }
+.react-calendar__tile--now { background: #1e40af; color: #fff; }
+.react-calendar__tile--active { background: #f59e0b; color: #071029; }
+.react-calendar__tile:disabled { color: #475569; opacity: 0.6; }
+
+/* Modal wrapper */
+.enrollment-calendar-modal { background: rgba(2,6,23,0.8); }
+.enrollment-calendar-box { background: #0b1220; color: #e6eef8; padding: 12px; border-radius: 8px; }
+
+/* small adjustments */
+.react-calendar__month-view__days__day--weekend { color: #f97316; }

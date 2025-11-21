@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global customizations for the IOTrix dark futuristic theme */
+:root {
+  --bg-900: #030417;
+  --glass-bg: rgba(255,255,255,0.04);
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg-900);
+  color: #e6eef8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* small helper for subtle glass border */
+.glass-border {
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+/* Ensure SVG animations used in the login page render smoothly */
+@keyframes floaty {
+  0% { transform: translateY(0px) }
+  50% { transform: translateY(-20px) }
+  100% { transform: translateY(0px) }
+}
+
+/* Utility to support the arbitrary animation class used in the component */
+.animate-floaty-slow {
+  animation: floaty 14s ease-in-out infinite;
+}
